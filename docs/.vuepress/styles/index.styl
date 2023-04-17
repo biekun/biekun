@@ -1,0 +1,60 @@
+// 覆盖主题默认样式,将会被自动应用的全局样式文件，会生成在最终的 CSS 文件结尾，具有比默认样式更高的优先级
+// 表格一些样式
+table {
+  margin:0;
+}
+
+.theme-default-content {
+  max-width: 90% !important;
+  margin: 0 auto !important;
+}
+
+
+.svg-wechart {
+    transition: .382s ease;
+    /*背景图片*/
+    width: 100%;
+    height: 100%;
+    background: transparent url(/pagesidebar/wechart.png) no-repeat center / cover;
+    filter: drop-shadow(200px 0 blue);
+}
+
+.svg-support {
+    transition: .382s ease;
+    /*背景图片*/
+    width: 100%;
+    height: 100%;
+    background: transparent url(/pagesidebar/support.png) no-repeat center / cover;
+    background-size: 70%;
+    filter: drop-shadow(200px 0 blue);
+}
+
+
+.svg-course {
+    transition: .382s ease;
+    /*背景图片*/
+    width: 100%;
+    height: 100%;
+    background: transparent url(/pagesidebar/course.png) no-repeat center / cover;
+    filter: drop-shadow(200px 0 blue);
+}
+
+.no-sidebar .me-toolbar-sidebar {
+  display: none;
+}
+
+// 适配手机端图片的样式设置
+.crop {
+  overflow: hidden;
+  margin: 0 auto 0;
+}
+
+.crop img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .crop {
+    width: 60%;
+  }
+}
