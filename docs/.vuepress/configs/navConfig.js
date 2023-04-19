@@ -114,6 +114,24 @@ const navs = [
       }
     ]
   },
+  {
+    text: 'python',
+    items: [
+      {
+        text: '基础用法',
+        items: [
+          { text: '常用模块', link: '/python/toolbox' },
+          { text: 'effective python', link: '/python/高效python' }
+        ]
+      },
+      {
+        text: 'Web开发',
+        items: [
+          { text: 'FastAPI', link: '/python/FastAPI' },
+        ]
+      }
+    ]
+  },
 
   // {
   //   text: '前端',
